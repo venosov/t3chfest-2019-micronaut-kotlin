@@ -7,7 +7,7 @@ object Application {
     @JvmStatic
     fun main(args: Array<String>) {
         Micronaut.build()
-                .packages("encrypt.service.junit")
+                .packages("encrypt.service")
                 .mainClass(Application.javaClass)
                 .start()
     }

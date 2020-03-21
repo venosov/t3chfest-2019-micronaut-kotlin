@@ -51,7 +51,7 @@ dependencies {
 
 test.classpath += configurations.developmentOnly
 
-mainClassName = "encrypt.service.junit.Application"
+mainClassName = "encrypt.service.Application"
 
 shadowJar {
     mergeServiceFiles()
@@ -67,7 +67,7 @@ test {
 }
 
 allOpen {
-	annotation("io.micronaut.aop.Around")
+	annotation "io.micronaut.aop.Around"
 }
 
 compileKotlin {
