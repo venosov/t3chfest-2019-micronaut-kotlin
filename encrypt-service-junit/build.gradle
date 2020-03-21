@@ -31,7 +31,7 @@ dependencies {
     implementation "javax.annotation:javax.annotation-api"
     implementation "io.micronaut:micronaut-tracing"
     implementation "io.opentracing.brave:brave-opentracing"
-    implementation "io.projectreactor:reactor-core"
+    implementation "io.projectreactor:reactor-core:$reactorVersion"
     kapt platform("io.micronaut:micronaut-bom:$micronautVersion")
     kapt "io.micronaut:micronaut-inject-java"
     kapt "io.micronaut:micronaut-validation"
@@ -44,6 +44,7 @@ dependencies {
     testImplementation platform("io.micronaut:micronaut-bom:$micronautVersion")
     testImplementation "org.junit.jupiter:junit-jupiter-api"
     testImplementation "io.micronaut.test:micronaut-test-junit5"
+    testImplementation "io.projectreactor:reactor-test:$reactorVersion"
     testRuntimeOnly "org.junit.jupiter:junit-jupiter-engine"
 }
 
