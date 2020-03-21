@@ -4,7 +4,7 @@ micronaut:
   server:
     port: -1
 jackson:
-  module-scan: false
+  module-scan: true
 
 ---
 consul:
