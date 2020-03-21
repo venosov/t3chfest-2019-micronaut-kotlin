@@ -32,6 +32,7 @@ dependencies {
     implementation "io.micronaut:micronaut-tracing"
     implementation "io.opentracing.brave:brave-opentracing"
     implementation "io.projectreactor:reactor-core:$reactorVersion"
+    implementation "io.micronaut:micronaut-discovery-client"
     kapt platform("io.micronaut:micronaut-bom:$micronautVersion")
     kapt "io.micronaut:micronaut-inject-java"
     kapt "io.micronaut:micronaut-validation"
