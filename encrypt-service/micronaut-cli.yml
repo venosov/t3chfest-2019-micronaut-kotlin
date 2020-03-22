@@ -1,5 +1,5 @@
 profile: service
 defaultPackage: encrypt.service
 ---
-testFramework: spek
+testFramework: junit
 sourceLanguage: kotlin
